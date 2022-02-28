@@ -5,13 +5,13 @@
 }
 .navbar{
     background-color: #000;
-    color: #d8d8d8;
-    border-bottom: 1.5px solid gray;
+    color: #4e4040;
+    border-bottom: 1.5px solid white;
     width: 100%;
     line-height: 80px;
     height: 80px;
-    font-size: 18px;
-    padding: 0 30px;
+    font-size: 19px;
+    padding: 0 20px;
     position: absolute;
     top: 0;
     left: 0;
@@ -40,6 +40,7 @@
     height: inherit;
     line-height: inherit;
     padding: 0;
+    font-weight: 200;
 }
 .navbar ul li{
   display: inline-block;  
@@ -51,7 +52,7 @@
     padding: 0 30px;
 }
 .navbar ul li a:hover{
-    background-color: gray;
+    background-color: rgb(250, 248, 248);
     border-radius: 17pt;
     border-style: inset;
 
@@ -89,26 +90,27 @@ p{
     background-image: initial;
     color: white;
     font-size: 30px;
-    margin-bottom: -5%;
+    position: static;
     
 }
 main{
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 1fr 1fr;
     background-color: #000;
 
 }
 .btns{
-    margin-top: 20px;
+    margin-top: 10px;
     background: #d8d8d8;
     cursor: pointer;
     color: #191919;
-    padding: 12px 12px;
+    padding: 5px 5px;
     float: left;
     border: 0;
-    border-radius: 20px;
-    margin-left: 10px;
+    border-radius: 70px;
+    margin-left: 50px;
     block-size: 60px;
+    margin-right: 70px;
 }
 .btns:hover{
     background: #7f998b;
@@ -125,9 +127,9 @@ img{
     border-top-left-radius: 15pt;
     border-top-right-radius: 15pt;
     border-bottom-color: #848888;
-    image-resolution: 6000px;
-    background-origin: border-box;
-    filter: grayscale(1.5);
+    background-origin: content-box;
+    filter: grayscale(1);
+    transition-delay: 2.5ms;
 
 }
 img:hover{
@@ -136,4 +138,13 @@ img:hover{
     transition-delay: 20ms;
     cursor: pointer;
 
+}
+.Content{
+    font-family: 'karla';
+    color: #d8d8d8;
+    margin-top: 75%;
+    margin-left: 100px;
+    border-bottom: #848888 20px;
+    border-top: #d8d8d8 20px;
+    margin-bottom: -85%;
 }
