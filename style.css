@@ -68,13 +68,14 @@ body {
     margin-left: 100px;
     border-bottom: #848888 20px;
     border-top: #d8d8d8 20px;
+    margin-bottom: -85%;
 }
 h1{
     font-size: 90px;
     box-sizing: content-box;
     padding: 6px;
     text-shadow: #eff1f1;
-    margin-top: auto;
+    margin-top: 60px;
     margin-bottom: auto;
     text-align: center;
     text-anchor: middle; 
@@ -88,10 +89,8 @@ p{
     background-image: initial;
     color: white;
     font-size: 30px;
-    text-shadow: #848888;
-    top: 50px;
-    block-size: 250px;
-
+    margin-bottom: -5%;
+    
 }
 main{
     display: grid;
