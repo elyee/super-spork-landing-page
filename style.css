@@ -6,11 +6,11 @@
 .navbar{
     background-color: #000;
     color: #4e4040;
-    border-bottom: 1.5px solid white;
+    border-bottom: 1.0px solid white;
     width: 100%;
     line-height: 80px;
     height: 80px;
-    font-size: 19px;
+    font-size: 13px;
     padding: 0 20px;
     position: absolute;
     top: 0;
@@ -27,7 +27,7 @@
     height: inherit;
     line-height: inherit;
     padding: 0 30px;
-    font-size: 40px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: 'karla';
@@ -73,7 +73,7 @@ body {
     margin-bottom: -85%;
 }
 h1{
-    font-size: 90px;
+    font-size: 60px;
     box-sizing: content-box;
     padding: 6px;
     text-shadow: #eff1f1;
@@ -121,8 +121,8 @@ main{
 img{
     margin-top: 80px;
     margin-left: 175px;
-    width: 600px;
-    height: 600px;
+    width: 70%;
+    height: 70%;
     border-bottom-right-radius: 10pt;
     border-bottom-left-radius: 15pt;
     border-top-left-radius: 15pt;
@@ -135,7 +135,7 @@ img{
 }
 img:hover{
     filter: grayscale(0);
-    transition: 2.5s;
+    transition: 0.5s;
     transition-delay: 20ms;
     cursor: pointer;
 
@@ -148,4 +148,20 @@ img:hover{
     border-bottom: #848888 20px;
     border-top: #d8d8d8 20px;
     margin-bottom: -85%;
+}
+img ::after{
+ 
+    margin-top: 80px;
+    margin-left: 175px;
+    width: 30%;
+    height: 30%;
+    border-bottom-right-radius: 10pt;
+    border-bottom-left-radius: 15pt;
+    border-top-left-radius: 15pt;
+    border-top-right-radius: 15pt;
+    border-bottom-color: #848888;
+    background-origin: content-box;
+    filter: grayscale(1);
+    transition-delay: 2.5ms;
+    mix-blend-mode: screen;   
 }
